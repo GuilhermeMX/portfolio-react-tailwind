@@ -28,6 +28,9 @@ export default function Home() {
               <li></li>
             </ul>
           </nav>
+          <div>
+            <h1>Guilherme Xavier</h1>
+          </div>
         </section>
       </main>
     </div>
