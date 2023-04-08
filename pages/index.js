@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Home() {
   //const [darkMode, setDarkMode] = useState(false);
@@ -28,8 +29,14 @@ export default function Home() {
               <li></li>
             </ul>
           </nav>
-          <div>
-            <h1>Guilherme Xavier</h1>
+          <div className="text-center p-10">
+            <h2 className="text-4xl py-2 text-teal-600 font-medium">Guilherme Xavier</h2>
+            <h3 className="text-2xl py-2">Full Stack Developer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">Experience with React and back end Nodejs. I create pages with Wordpress as well. Open to freelance and work abroad!</p>
+          </div>
+          <div className="text-5xl flex justify-center">
+            <AiFillGithub />
+            <AiFillLinkedin />
           </div>
         </section>
       </main>
