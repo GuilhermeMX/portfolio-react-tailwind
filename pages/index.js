@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
+import guilherme from '../public/guilherme.jpg';
 
 export default function Home() {
   //const [darkMode, setDarkMode] = useState(false);
@@ -38,6 +39,9 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-2 py-3 text-gray-600">
             <AiFillGithub />
             <AiFillLinkedin />
+          </div>
+          <div className="relative w-80 h-80 mx-auto mt-20 rounded-full">
+            <Image className="rounded-full" src={guilherme} alt="guilherme" layout="fill" objectFit='cover'/>
           </div>
         </section>
       </main>
