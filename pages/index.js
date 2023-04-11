@@ -34,7 +34,7 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-4xl py-2 text-teal-600 font-medium">Guilherme Xavier</h2>
             <h3 className="text-2xl py-2">Full Stack Developer.</h3>
-            <p className="text-md py-3 leading-8 text-gray-800">Experience with React and back end Nodejs. I create pages with Wordpress as well. Open to freelance and work abroad!</p>
+            <p className="text-md py-3 leading-8 text-gray-800">Experience with React, Typescript, back end PHP and Nodejs. I create pages with Wordpress as well. Open to freelance and work abroad!</p>
           </div>
           <div className="text-5xl flex justify-center gap-2 py-3 text-gray-600">
             <AiFillGithub />
@@ -42,6 +42,12 @@ export default function Home() {
           </div>
           <div className="relative w-80 h-80 mx-auto mt-20 rounded-full">
             <Image className="rounded-full" src={guilherme} alt="guilherme" layout="fill" objectFit='cover'/>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3>Services</h3>
           </div>
         </section>
       </main>
