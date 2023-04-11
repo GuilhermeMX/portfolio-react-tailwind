@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
+          <nav className="py-10 mb-4 flex justify-between">
             <h1 className="text-xl font-burtons">Guilherme M. Xavier</h1>
             <ul className="flex items-center">
               <li>
@@ -40,15 +40,19 @@ export default function Home() {
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative w-80 h-80 mx-auto mt-20 rounded-full">
+          <div className="relative w-80 h-80 mx-auto mt-20 mb-12 rounded-full">
             <Image className="rounded-full" src={guilherme} alt="guilherme" layout="fill" objectFit='cover'/>
           </div>
         </section>
 
         <section>
           <div>
-            <h3>Services</h3>
+            <h3 className="text-3xl py-1">Services | offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-80">
+              As a dev freelancer, i've been working creating SPA pages, landing pages, Wordpress commerces, Fixing code errors. To get into of my freelancer works, go to my <a className="text-teal-500" href="#">Fiverr account</a> and look some of my gigs.  
+            </p>
           </div>
+          <div></div>
         </section>
       </main>
     </div>
