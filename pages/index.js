@@ -3,6 +3,9 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
 import guilherme from '../public/guilherme.jpg';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 export default function Home() {
   //const [darkMode, setDarkMode] = useState(false);
@@ -52,7 +55,12 @@ export default function Home() {
               As a dev freelancer, i've been working creating SPA pages, landing pages, Wordpress commerces, Fixing code errors. To get into of my freelancer works, go to my <a className="text-teal-500" href="#">Fiverr account</a> and look some of my gigs.  
             </p>
           </div>
-          <div></div>
+          <div>
+            <div>
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium">Front End</h3>
+            </div>
+          </div>
         </section>
       </main>
     </div>
