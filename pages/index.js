@@ -59,9 +59,9 @@ export default function Home() {
             <div>
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium">Front End</h3>
-              <p>Javascript</p>
-              <p>html5 | css3</p>
-              <p>React | React Native</p>
+              <p className="text-gray-800 py-2">Javascript</p>
+              <p className="text-gray-800 py-2">html5 | css3</p>
+              <p className="text-gray-800 py-2">React | React Native</p>
             </div>
           </div>
         </section>
