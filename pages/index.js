@@ -55,8 +55,25 @@ export default function Home() {
               As a dev freelancer, i've been working creating SPA pages, landing pages, Wordpress commerces, Fixing code errors. To get into of my freelancer works, go to my <a className="text-teal-500" href="#">Fiverr account</a> and look some of my gigs.  
             </p>
           </div>
-          <div>
-            <div>
+
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"> 
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium">Front End</h3>
+              <p className="text-gray-800 py-2">Javascript</p>
+              <p className="text-gray-800 py-2">html5 | css3</p>
+              <p className="text-gray-800 py-2">React | React Native</p>
+            </div>
+            
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"> 
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium">Front End</h3>
+              <p className="text-gray-800 py-2">Javascript</p>
+              <p className="text-gray-800 py-2">html5 | css3</p>
+              <p className="text-gray-800 py-2">React | React Native</p>
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1"> 
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium">Front End</h3>
               <p className="text-gray-800 py-2">Javascript</p>
